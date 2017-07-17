@@ -1,0 +1,84 @@
+	/* fonts
+
+		font-family: 'Open Sans', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+
+	 */
+	
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+
+	margin:auto;
+	overflow: hidden;
+}
+
+
+/*.     Header  */
+
+header{
+	background: url('../img/bg7.jpeg') #000;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-height: 600px;
+
+
+}
+header .menu{
+	margin:40px 0;
+	text-align: right;
+}
+header .menu a{
+	margin:0 20px;
+	color:#fff;
+	padding-bottom: 9px;
+	font-size: 1em;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+		transition:all 1s ease;
+
+}
+header .menu a:hover{
+	// border-bottom:2px solid #fff;
+	border-bottom:2px solid #fff;
+	
+}
+header .menu .actual{
+	color:#09f;
+	font-weight: bold;
+	border-bottom:2px solid #09f;
+
+}header .menu .actual:hover{
+	color:#09f;
+	font-weight: bold;
+	border-bottom:2px solid #09f;
+
+}
+header .contenedor-texto{
+	display: flex;
+	margin:190px 0;
+}
+header .contenedor-texto .texto{
+	font-family: 'Fjalla One', sans-serif;
+	border:2px solid rgba(255,255,255,0.5);
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	padding:20px 60px;
+}
+header .contenedor-texto .texto h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
