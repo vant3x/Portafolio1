@@ -19,7 +19,7 @@ body{
 .contenedor{
 	width: 90%;
 	max-width: 1000px;
-
+	
 	margin:auto;
 	overflow: hidden;
 }
@@ -52,21 +52,21 @@ header .menu a{
 }
 header .menu a:hover{
 	// border-bottom:2px solid #fff;
-	border-bottom:2px solid #fff;
+	border-bottom:3px solid #fff;
 	
 }
 header .menu .actual{
-	color:#09f;
-	font-weight: bold;
-	border-bottom:2px solid #09f;
+	color:#1287E1;
+	border-bottom:3px solid #1287E1;
 
 }header .menu .actual:hover{
 	color:#09f;
-	font-weight: bold;
-	border-bottom:2px solid #09f;
+	border-bottom:3px solid #1287E1;
 
 }
-header .contenedor-texto{
+header .contenedor-texto{	
+	justify-content: center;
+	align-content: center;
 	display: flex;
 	margin:190px 0;
 }
@@ -78,7 +78,64 @@ header .contenedor-texto .texto{
 	text-align: center;
 	padding:20px 60px;
 }
+header .contenedor-texto .texto h1, 
+header .contenedor-texto .texto h2{
+	color:#fff;
+	font-weight: 300px;
+}
+
+
 header .contenedor-texto .texto h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
+}
+header .contenedor-texto .texto .nombre {
+	margin-bottom: 10px;
+	font-size: 50px;
+	line-height: 50px;
+}
+header .contenedor-texto .texto .skills{
+	font-size: 25px;
+	line-height: 25px;
+
+}
+
+
+/*  ------ MAIN  ------- */
+.main .contenedor{
+	overflow: visible;
+}
+
+.main .about{
+	text-align: center;
+}
+.main .about .photo{
+	margin-top:-60px;
+
+}
+.main .about .photo img{
+	vertical-align: top;
+		border-radius: 50%;
+		border:5px  solid rgba(255,255,255,0.2)
+
+}
+
+.main .about .texto{
+	color:#5a5a5a;
+	font-weight: 600;
+	font-size: 1em;
+	line-height: 30px;
+	width: 80%;
+	margin:40px auto 60px auto;
+}
+.main .about .titulo{
+	font-size;34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color:#1287E1;
+	text-align: center;
+	line-height: 34px;
+}
+.main .about .texto .bold{
+	color:#1287E1;
 }
