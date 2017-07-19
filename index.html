@@ -17,9 +17,9 @@
 		<div class="contenedor">
 			<nav class="menu">
 				<a href="index.html" class="actual">Inicio</a>
-				<a href="">Sobre mí</a>
-				<a href="">Portafolio</a>
-				<a href="">Contacto</a>
+				<a href="#about-me">Sobre mí</a>
+				<a href="#works">Portafolio</a>
+				<a href="#contact">Contacto</a>
 			</nav>
 
 			<div class="contenedor-texto">	
@@ -32,7 +32,7 @@
 	</header>
 
 	<section class="main">
-			<section class="about">
+			<section class="about" id="about-me">
 				<div class="contenedor">
 					<div class="photo">
 						<img src="img/photos/4.png" alt="Alejandro Velásquez Molina" width="145" height="135">
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="trabajos">
+		<section class="trabajos" id="works">
 					<div class="contenedor">
 						<h3 class="titulo">Trabajos</h3>
 						<div class="contenedor-trabajos">
@@ -133,20 +133,20 @@
 					</div>
 		 </section>
 	</section>
-	<section class="skills">
+	<!-- <section class="skills">
 		<div class="contenedor">
 			<h2>Skills</h2>
 		</div>
-	</section>
+	</section> -->
 	<footer>
-		<section class="contacto">
+		<section class="contacto" id="contact">
 			<div class="contenedor">
 				<h3 class="titulo">Contacto</h3>
 				<form action="" class="formulario">
 					<input type="text" placeholder="Nombre" name="nombre" required="">
-					<input type="email" placeholder="@correo.com" name="email" required="">
+					<input type="email" placeholder="@correo" name="email" required="">
 					<textarea name="mensaje"  placeholder="Mensaje"></textarea>
-					<input  class="btn" type="submit" value="Enviar">
+					<input  class="btn_val" type="submit" value="Enviar">
 				</form>
 			</div>
 		</section>
